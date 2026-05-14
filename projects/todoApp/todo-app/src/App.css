@@ -2,4 +2,24 @@ h1 {
     font-weight: 700;
     font-size: 45px;
     margin: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.item-container {
+    text-align: left;
+}
+
+.sn-button {
+    min-width: 80px;
+
+
+}
+
+.sn-row {
+    margin: 10px 5px;
+
 }
