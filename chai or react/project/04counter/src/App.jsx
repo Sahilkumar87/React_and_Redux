@@ -6,11 +6,14 @@ import Button from "./components/Button";
 
 function App() {
 
-  let [count, setCount] = useState(1)
+  const [count, setCount] = useState(1)
 
   const addValue = (() => {
     //ount = count + 1;
-    setCount(count + 1)
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
   })
 
 
