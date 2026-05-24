@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://img.magnific.com/premium-photo/414-remote-working_120816-407868.jpg?w=1060" alt="image1" />
+                    <img className="w-96" src="https://img.magnific.com/premium-photo/young-man-cartoon-character-holding-using-laptop-computer-pc-laptop-computer-technology-concept-flat-vector-illustration-isolated-white-background_1254992-240324.jpg?w=1480" alt="image1" />
                 </div>
             </aside>
 

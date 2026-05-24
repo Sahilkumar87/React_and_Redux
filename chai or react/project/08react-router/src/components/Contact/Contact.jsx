@@ -36,7 +36,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
+                                    East Champaran, Bihar, 845417
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                    +91 8708330114
                                 </div>
                             </div>
 
@@ -80,7 +80,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                    sahilkumar06804@gmail.com
                                 </div>
                             </div>
                         </div>
