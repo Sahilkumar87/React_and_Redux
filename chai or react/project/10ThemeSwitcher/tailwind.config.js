@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "class",
+  darkMode: 'class', // <--- YE LINE ZAROORI HAI. Agar missing hai toh add karein.
   theme: {
     extend: {},
   },

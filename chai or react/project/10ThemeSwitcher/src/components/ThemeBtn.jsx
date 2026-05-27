@@ -1,7 +1,4 @@
-import React from 'react'
 import useTheme from '../context/theme';
-import { ThemeContext } from '../context/theme';
-
 export default function ThemeBtn() {
     const onChangeBtn = (e) => {
         const darkModeStatus = e.currentTarget.checked
