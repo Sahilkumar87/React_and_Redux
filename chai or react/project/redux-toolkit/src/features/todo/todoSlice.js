@@ -6,7 +6,7 @@ const initialState = {
         text: "Hello world",
     }]
 }
-
+ 
 export const todoSlice = createSlice({
     name: "todo",
     initialState,

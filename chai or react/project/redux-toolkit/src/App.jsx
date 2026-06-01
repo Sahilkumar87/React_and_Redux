@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import AddTodo from './components/AddTodo';
+import Todo from './components/Todo';
 
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    <div className="bg-black w-full h-full">
-    <h1 className="text-center text-3xl text-white"> Learn about redux toolkit</h1>
-    </div>
+  return (<>
+  <AddTodo></AddTodo>
+  <Todo></Todo>
+  </>
   )
 }
 
