@@ -82,9 +82,54 @@ export class Service {
     }
   }
 
-  async getPosts(queries = [Query.equal]){
+  async getPosts(queries = [Query.equal("status", "active")]){
+    try{
+      return await this.databases.listDocument(
+        conf.appwriteDataBaseId,
+        conf.appwriteCollectionId,
+        queries,
+      )
+
+    } catch(error){
+      console.log("Appwrite service :: getPosts :: error", error);
+    }
 
   }
+
+  // file upload method
+
+  async uploadFile(file){
+    try {
+      return this.bucket.createFile(
+        conf.appwriteBucketId,
+        ID.unique(),
+        file
+      )
+    }catch(error){
+      console.log("Appwrite service :: uploadFile error", error);
+      return false;
+    }
+  }
+
+  async deleteFile(fillId){
+    try {
+      await this.bucket.deleteFile(
+        conf.appwriteBucketId,
+        fillId
+      )
+
+    } catch(error){
+      console.log("Appwrite service :: deleteFile error", error);
+      return true;
+    }
+  }
+  
+   async getFilePreview(fileId){
+    return this.bucket.getFilePreview(
+      conf.appwriteBucketId,
+      fileId
+    )
+   }
 }
 
 const service = new Service();
