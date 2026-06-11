@@ -2,7 +2,6 @@ import React from 'react'
 import { useDispatch } from 'react-redux';
 import authService from '../../appwrite//config/AuthService';
 import {logout} from "../../store/AuthSlice"
-import { useDispatch } from 'react-redux';
 
 
 function LogoutBtn() {
