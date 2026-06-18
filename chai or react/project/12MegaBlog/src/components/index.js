@@ -8,6 +8,7 @@ import Signup from './Signup';
 import Login from "./Login"
 import Post from "./Post"
 import PostForm from "./post-form/PostForm"
+import AuthLayout from "./AuthLayout";
 
 export {
     Header,
@@ -20,4 +21,5 @@ export {
     Login,
     Post,
     PostForm,
+    AuthLayout,
 }
